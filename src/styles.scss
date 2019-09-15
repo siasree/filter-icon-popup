@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.mat-card-footer {
+    display: inline;
+    margin: 2vw;
+    position: relative;
+    left: 13vw;
+}
+
+.mat-card-actions,
+.mat-card-content,
+.mat-card-subtitle {
+    display: block;
+    // border: 2px solid black;
+    /* margin-bottom: 16px; */
+}
+
+.mat-card-header-text {
+    margin: 0 8px;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle,
+.mat-radio-outer-circle {
+    // border-color: deepskyblue !important;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background-color: deepskyblue !important;
+}
+
+.mat-checkbox-checked.mat-accent .mat-checkbox-background,
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+    background-color: deepskyblue;
+}
